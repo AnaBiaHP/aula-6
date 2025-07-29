@@ -1,0 +1,153 @@
+header img{
+    width:100px;
+    height:100px;
+    display:inline;
+}
+
+header h1{
+    display:inline-block;
+    font-size: 55pt;
+    color:dimgray;
+}
+
+.fonte{
+    font-size: 16pt;
+    font-family:'lucinda sans';
+    font-style: italic;
+    color:grey;
+}
+
+.caixa{
+    height: 250px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: cornsilk;
+    display:inline-block;
+    margin-left:1%;
+    padding: 2%;
+}
+
+#cabeçalho{
+    padding: 5px;
+}
+
+#menu{
+    padding:2%;
+    width:15%;
+    border: black 1% solid;
+    margin:2%;
+    border-radius:10px;
+}
+
+#main{
+    background-color: lavender;
+    margin: 0 auto;
+    padding:20px;
+}
+
+#rodape{
+    background-color:lightblue ;
+    margin:1%;
+    padding: 50px;
+}
+
+#ex2{
+    background-color: lightpink;
+}
+
+aside a{
+    display:block;
+    text-decoration: none;
+    padding:2%¨;
+}
+
+/*todo elemento que tem propriedade src*/
+[src]{border:1px purple solid;}
+
+/*Todo elemento com atributo src que o valor do atributo termine com png*/
+[src$='png']{
+    border-radius: 10px;
+}
+
+/*todo elemento com atributo href que contenha o seu valor atribuido a uma substring (pedaço)*/
+[href*='/ong/']{
+    color:crimson;
+    margin:3px;
+}
+
+/*todo elemento com atributo href que contenha a palavra exata atribuida*/
+[href~='https://www.paraisodosfocinhos.com.br']{
+    color:darkcyan;
+    font-size:24pt;
+}
+
+[href^='https://www.atados.com.br/ong/gatinhos-do-joao-alfredo']{
+    color:deeppink;
+    font-size:12pt;
+}
+
+[src^='Vista']{
+    width:250px;
+    height: 250px;
+}
+
+div.btn{
+    border-radius: 10px;
+    padding:2px;
+    margin:5px;
+    background-color:coral;
+    width: 100px;
+    text-align: center;
+}
+
+a, a:link{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:darkolivegreen;
+    background-color: aliceblue;
+}
+
+a:active{
+    color:blueviolet;
+    border: black 3px solid;
+}
+
+div.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    box-sizing: border-box;
+    border:1px blue;
+    display: inline-block;
+    color:beige;
+    line-height: 100px;;
+    margin:5px;
+    cursor:pointer;
+}
+
+section.tamanho{
+    width: 250px;
+    text-align: center;
+}
+
+div:hover{
+    background-color: chocolate;
+
+}
+
+div.active{
+    background-color: pink;
+}
+
+div.focus{
+    background-color: black;
+}
+
+#container{
+    background-color:white;
+
+}
