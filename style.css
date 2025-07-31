@@ -33,7 +33,7 @@ header h1{
 
 #menu{
     padding:2%;
-    width:15%;
+    /*width:15%;*/
     border: black 1% solid;
     margin:2%;
     border-radius:10px;
@@ -103,9 +103,12 @@ div.btn{
 a, a:link{
     color:cornflowerblue;
     text-decoration: none;
+    display:block;
+    margin:5px;
+    text-align: center;
 }
 
-a:hover{
+a:hover{/*hover: define o estilo quando o mouse passa sobre o link*/
     text-decoration: underline;
     color:darkolivegreen;
     background-color: aliceblue;
@@ -119,9 +122,9 @@ a:active{
 div.box{
     width: 100px;
     height: 100px;
-    background-color: green;
+    background-color:cyan;
     box-sizing: border-box;
-    border:1px blue;
+    border:1px  solid blue;
     display: inline-block;
     color:beige;
     line-height: 100px;;
@@ -136,18 +139,18 @@ section.tamanho{
 
 div:hover{
     background-color: chocolate;
-
 }
 
-div.active{
+div:active{
     background-color: pink;
+    color:deeppink;
 }
 
 div.focus{
     background-color: black;
+    color:crimson;
 }
 
 #container{
     background-color:white;
-
 }
